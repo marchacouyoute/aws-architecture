@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T02:12:01.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="20Az0yX1PPVWUa7TD06L" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T02:17:51.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Qc_jbVhQbtr_fGax1hVr" version="15.1.2" type="github">
   <diagram id="qcj4e9FZEKIxF61KaPuz" name="Page-1">
-    <mxGraphModel dx="2580" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1566" dy="1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
           <mxGeometry x="190" y="80" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="wEbdUWJIZfYpskW1GTvS-31" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="75" width="100" height="110" as="geometry" />
+          <mxGeometry x="470" y="80" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="wEbdUWJIZfYpskW1GTvS-32" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="501.25" y="120" width="40.25" height="40" as="geometry" />
@@ -111,6 +111,18 @@
         </mxCell>
         <mxCell id="wEbdUWJIZfYpskW1GTvS-1" value="NAT Gateway" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="475" y="160" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEbdUWJIZfYpskW1GTvS-37" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wEbdUWJIZfYpskW1GTvS-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="250" as="sourcePoint" />
+            <mxPoint x="256" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wEbdUWJIZfYpskW1GTvS-38" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="521.0300000000001" y="250.00000000000023" as="sourcePoint" />
+            <mxPoint x="521.0300000000001" y="190.00000000000023" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
